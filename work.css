@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(214, 251, 159);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+nav{
+    border-radius: 20px;
+    background-color: green;
+    width: 90px;
+    height: 6vh;
+    padding: 13px;
+}
+.home{
+    padding-left: 25px;
+}
+.about{
+    padding-left: 20px;
+}
+.skills{
+    padding-left: 25px;
+}
+.work{
+    padding-left: 26px;
+}
+.contact{
+    padding-left: 19px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.work{
+    margin: 50px 0px 50px 0px;
+    border: 2px solid black;
+}

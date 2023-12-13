@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+nav{
+    border-radius: 20px;
+    background-color: green;
+    width: 90px;
+    height: 6vh;
+    padding: 13px;
+}
+.home{
+    padding-left: 25px;
+}
+.about{
+    padding-left: 20px;
+}
+.skills{
+    padding-left: 25px;
+}
+.work{
+    padding-left: 26px;
+}
+.contact{
+    padding-left: 19px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    background-color: rgb(214, 251, 159);
+    border-radius: 20px;
+    overflow: scroll;
+    width: 90vw;
+    height: 60vh;
+    margin: 95px 0px 15px 70px;
+}
+h3{
+    margin-top: 20px;
+}
+.skill{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(15, 13, 13, 0.59);
+    margin-top: 20px;
+}
+#skill-1{
+    width: 95%;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+#skill-2{
+    width: 87%;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+#skill-3{
+    width: 91%;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+#skill-4{
+    width: 100%;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+#skill-5{
+    width: 80%;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+#skill-6{
+    width: 80%;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+#skill-7{
+    width: 90%;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+#skill-8{
+    width: 80%;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}

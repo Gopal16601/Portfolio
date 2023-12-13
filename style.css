@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(214, 251, 159);
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+nav{
+    border-radius: 20px;
+    background-color: green;
+    width: 90px;
+    height: 6vh;
+    padding: 13px;
+}
+.home{
+    padding-left: 25px;
+}
+.about{
+    padding-left: 20px;
+}
+.skills{
+    padding-left: 25px;
+}
+.work{
+    padding-left: 26px;
+}
+.contact{
+    padding-left: 19px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    display: flex;
+    height: 80vh;
+}
+.container-1{
+    width: 50vw;
+    padding: 50px;
+}
+p{
+    font-size: 50px;
+    padding-left: 5vw;
+    padding-top: 10vh;
+}
+.container-2{
+    width: 50vw;
+}
+img{
+    height: 400px;
+    background: #a3bf77;
+    border-radius: 40px 100px 40px 100px;
+    margin: 100px;
+}
+button{
+    background-color: green;
+    height: 5vh;
+    width: 20vw;
+    border-radius: 20px;
+    margin: 50px 50px 50px 150px;
+}

@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+nav{
+    border-radius: 20px;
+    background-color: green;
+    width: 90px;
+    height: 6vh;
+    padding: 13px;
+}
+.home{
+    padding-left: 25px;
+}
+.about{
+    padding-left: 20px;
+}
+.skills{
+    padding-left: 25px;
+}
+.work{
+    padding-left: 26px;
+}
+.contact{
+    padding-left: 19px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 434px;
+    width: 700px;
+    border-radius: 20px;
+    background-color: #a79c9c;
+    box-shadow: 10px 10px rgba(197, 225, 155, 0.507);
+    margin: 90px 0px 0px 350px;
+}
+
+.contacts {
+    background-color:rgb(214, 251, 159);
+    width: 270px;
+    height: 430px;
+    border-radius: 20px;
+}
+
+h1{
+    padding: 20px 0px 0px 20px;
+}
+
+p {
+    margin-top: 50px;
+    padding-left: 15px;
+}
+
+.person-details {
+    width: 335px;
+}
+
+input {
+    width: 300px;
+    margin: 10px 10px 10px 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button {
+    height: 25px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: rgb(214, 251, 159);
+}
+#text{
+    height: 100px;
+}
+#mail, #phone{
+    color: black;
+}

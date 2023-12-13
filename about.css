@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+nav{
+    border-radius: 20px;
+    background-color: green;
+    width: 90px;
+    height: 6vh;
+    padding: 13px;
+}
+.home{
+    padding-left: 25px;
+}
+.about{
+    padding-left: 20px;
+}
+.skills{
+    padding-left: 25px;
+}
+.work{
+    padding-left: 26px;
+}
+.contact{
+    padding-left: 19px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+}
+.container{
+    display: flex;
+    height: 70vh;
+    width: 70vw;
+    margin-left: 15vw;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 20px 0px 20px 0px rgb(125 234 47 / 21%);
+}
+.container-1{
+    background-color: rgb(214, 251, 159);
+    width: 25vw;
+}
+img{
+    height: 381px;
+    margin: 138px 0px 0px 0px;
+}
+.container-2{
+    padding: 150px 0px 0px 20px;
+    font-size: 25px;
+    color: rgb(107 169 15);
+}
+button{
+    background-color: rgb(214, 251, 159);
+    height: 30px;
+    margin: 45px 0px 0px 150px;
+    width: 280px;
+    border-radius: 20px;
+}
+.resume-download{
+    color: black;
+}
